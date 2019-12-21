@@ -10,5 +10,4 @@ const express = require ("express");
   public/survey.html
 www.google.com/
 
-app.get('/api/survey', function asdfasdfas)
 
