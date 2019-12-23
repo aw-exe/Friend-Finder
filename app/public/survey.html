@@ -206,7 +206,18 @@
                                     $("q10").val(),
                                 ]
                             };
-                        };
+
+                            const currentURL = window.location.origin;
+
+                            $.post(currentURL + "/api/friends", userData, function(data{
+                                $("#matchName").text(data.name);
+                                $("$matchImage").attr("src", data.photo);
+                                $(#resultsModal).modal("alert");
+                            });
+                            else {
+                                alert("please fill out entire form!")
+                            };
+                        });
     </script>
 </body>
 
