@@ -1,11 +1,11 @@
-const friends = require ("..data/friends.js");
+const friends = require ("../data/friends.js");
 
-modeul.exports = functions(app) {
+module.exports = function(app) {
     app.get("/api/friends", function(req, res){
         res.json(friends);
     });
 
-    app.post("/api/friends", fucntion(req, res) {
+    app.post("/api/friends", function(req, res) {
         let totalDifference = 0;
         let bestMatch = {
             name: "",

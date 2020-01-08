@@ -1,31 +1,31 @@
 const friends = [
     {
         name: "Sally",
-        photo: "picturefilehere"
+        photo: "picturefilehere",
         scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     },
 
     {
         name: "Tom",
-        photo: "picturefilehere"
+        photo: "picturefilehere",
         scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     },
 
     {
         name: "David",
-        photo: "picturefilehere"
+        photo: "picturefilehere",
         scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     },
 
     {
         name: "Carol",
-        photo: "picturefilehere"
+        photo: "picturefilehere",
         scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     },
 
     {
         name: "Bobby",
-        photo: "picturefilehere"
+        photo: "picturefilehere",
         scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
 ];
